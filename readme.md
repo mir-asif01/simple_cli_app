@@ -16,7 +16,36 @@ A simple command-line application built with Go and Cobra that fetches random qu
 
 1. Clone the repository:
 
-   ```sh
-   git clone https://github.com/mir-asif01/simple_cli_app.git
-   cd simple_cli_app
-   ```
+```sh
+git clone https://github.com/mir-asif01/simple_cli_app.git
+cd simple_cli_app
+```
+
+2. Install Dependencies:
+
+```sh
+    go mod tidy
+```
+
+3. Build the Application:
+
+```sh
+    go build -o quote
+```
+
+4. Run:
+
+```sh
+    ./quote qt
+```
+
+This will fetch a random quote and display it in the terminal.
+
+Output
+
+```sh
+    Quote : "The only limit to our realization of tomorrow is our doubts of today."
+    Author : Franklin D. Roosevelt
+```
+
+## Thank you
